@@ -14,7 +14,7 @@ export default class HousingMap extends LightningElement {
             City: element.City__c,
             State: element.State__c
           },
-          title: element.Name
+          title: element.Address__c
         };
       });
         this.error = undefined;
